@@ -1,0 +1,1 @@
+import go2w_nav.tasks.go2w  # noqa: F401

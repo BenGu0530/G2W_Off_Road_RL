@@ -1,0 +1,45 @@
+# Entire robot_lab directory (has its own git + 800MB checkpoints)
+robot_lab/
+
+# Training logs and model checkpoints
+logs/
+**/logs/
+*.pt
+*.pth
+*.onnx
+wandb/
+runs/
+**/checkpoints/
+events.out.tfevents.*
+
+# Isaac Sim / USD large assets
+*.usd
+*.usda
+*.usdc
+*.dae
+**/meshes/
+
+# Misc outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.conda/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+make.py
